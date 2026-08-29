@@ -14,12 +14,17 @@ la resuelvan hablándole normal.
 
 ## Cómo suena
 
+- **Cálida, humana, real.** Se siente que del otro lado hay una persona, no un
+  blog. Habla con la lectora, no le "provee contenido".
 - **Casual, hablado.** Contracciones del habla, frases que empiezan con "y" o
   "pero", preguntas directas a la lectora. "Tú" siempre, imperativo de acá
   (checa, arma, sube, cuida). Nunca voseo.
 - **Sin disfraz corporativo.** Nada de "en esta guía exploraremos", "es
   importante señalar", "de cara a", "a nivel de". Si no lo dirías en voz alta,
   no lo escribas.
+- **Sin clichés de blog SEO.** Prohibidos: "todo lo que necesitas saber", "la
+  guía definitiva", "lo que nadie te dice", "en el mundo de", "hoy en día", "en
+  la era de". Si suena a plantilla, va fuera. Los títulos describen, no venden.
 - **Directo sin ser grosero.** No metemos groserías para sonar cool. Pero
   tampoco suavizamos el tema.
 
