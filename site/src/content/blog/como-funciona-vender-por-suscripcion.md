@@ -1,76 +1,75 @@
 ---
-title: "Cómo funciona vender contenido por suscripción (y qué parte del dinero se queda contigo)"
-description: "Antes de abrir cuenta en cualquier plataforma, esto es lo que conviene entender: los tres modelos para cobrar, qué hace que alguien pague y por dónde se te va el dinero en el camino."
+title: "Cómo funciona vender contenido por suscripción y cuánto acabas ganando tú"
+description: "Antes de abrir cuenta en OnlyFans o donde sea: los tres modos de cobrar, qué hace que alguien pague y por dónde se te va parte del dinero en el camino."
 pubDate: 2026-08-29
 tags: ["para empezar", "cómo funciona"]
 draft: false
 ---
 
-Si alguna vez leíste tres notas gratis en un periódico y a la cuarta te pidió
-suscripción, ya sabes lo que es un paywall: una barrera que separa lo que se ve
-gratis de lo que hay que pagar para ver. Vender contenido para adultos funciona
-igual. Lo gratis sirve para que te conozcan. Lo de paga es de lo que vives.
+Ya conoces un paywall aunque no lo llames así. Es cuando un periódico te deja
+leer tres notas y a la cuarta te pide suscripción. O cuando ves una cuenta con
+las fotos borrosas hasta que pagas. Es una barrera: de un lado lo gratis, del
+otro lo que cuesta.
 
-Esa decisión, qué regalas y qué cobras, es el corazón del negocio. No es un
-detalle técnico de la plataforma. Antes de abrir cuenta en ningún lado, vale la
-pena entender tres cosas: cómo puedes cobrar, qué hace que alguien pague y por
-dónde se te va parte del dinero.
+Vender contenido para adultos funciona igual. Lo gratis (tu TikTok, tu Insta, un
+teaser) sirve para que te encuentren. Lo de paga es de lo que vives. Antes de
+abrir cuenta en OnlyFans, Fansly o donde sea, conviene tener claras tres cosas:
+cómo puedes cobrar, qué hace que alguien pague y por dónde se te va parte del
+dinero.
 
-## Las tres formas de cobrar
+## Los tres modos de cobrar
 
-**Por suscripción.** La persona paga una cuota fija cada mes y mientras siga
-suscrita ve todo lo que publicas. Es el ingreso más estable y es el modelo
-principal de plataformas como OnlyFans, Fansly o Fanvue. Tu chamba es darle
-razones para no cancelar el mes siguiente.
+**Suscripción.** La persona paga una cuota fija al mes y mientras siga suscrita
+ve todo lo que subes. Es el ingreso más parejo y es lo principal en OnlyFans,
+Fansly o Fanvue. Tu chamba es darle razones para no cancelar el mes que sigue.
 
-**Por contenido suelto.** Cada foto, video o pack tiene su propio precio. La
-suscripción puede ser gratis o baratita, y el dinero fuerte llega de contenido
-que se compra por separado, muchas veces por mensaje directo. Da picos buenos
-pero irregulares.
+**Contenido suelto.** Cada foto, video o pack tiene su propio precio. La
+suscripción puede ser gratis o baratita, y el dinero fuerte entra por cosas que
+se compran por separado, casi siempre por mensaje directo: un custom, un pack de
+fotos de pies, un video a la medida. Da picos buenos pero irregulares.
 
-**Por propina.** No hay barrera de entrada. El contenido se ve y quien quiere
-apoyar, apoya. Funciona como extra, casi nunca como base.
+**Propinas.** No hay barrera. El contenido se ve y quien quiere apoyar, apoya.
+Sirve de extra, no de base.
 
-La mayoría de las creadoras que viven de esto mezclan las tres: una suscripción
-que sostiene el piso, contenido suelto que sube el promedio y propinas que caen
-en los días buenos.
+Casi nadie usa un solo modo. Lo normal es mezclar: una suscripción que sostiene
+el piso, contenido suelto que sube el promedio y propinas que caen en los días
+buenos.
 
 ## Qué hace que alguien pague
 
-Poner precio a algo que se consigue gratis en otro lado no vende. Lo que hace que
-alguien saque la tarjeta suele ser una de estas cosas:
+Ponerle precio a algo que se consigue gratis en otro lado no vende. Lo que hace
+que alguien saque la tarjeta suele ser una de estas:
 
-- **Acceso que no existe gratis.** Contenido que no está en tus redes públicas ni
-  en ningún otro lado.
-- **Cercanía.** Contestar mensajes, usar el nombre de la persona, que se sienta
-  un trato directo.
-- **Constancia.** Publicar seguido para que la suscripción se sienta viva mes con
-  mes.
-- **Un nicho claro.** Una audiencia específica paga más que una audiencia
-  general, porque encuentra menos opciones parecidas.
+- **Algo que no está gratis en ningún lado.** Ni en tus redes públicas ni en
+  Google.
+- **Trato directo.** Contestas mensajes, usas su nombre, se siente personal.
+- **Constancia.** Subes seguido y la suscripción se siente viva mes con mes.
+- **Un nicho claro.** Si lo tuyo es fetiche de pies, ropa interior usada o un
+  kink específico, la gente que busca justo eso paga más, porque encuentra menos
+  opciones.
 
 ## Por dónde se te va el dinero
 
-Entre lo que cobra el suscriptor y lo que te llega a la cuenta hay varios
-descuentos. Conviene tenerlos claros desde el principio:
+Entre lo que paga el suscriptor y lo que te llega a la cuenta hay varios
+descuentos. Tenlos claros desde el día uno:
 
-1. **La comisión de la plataforma.** Cada plataforma se queda con un porcentaje
-   de todo lo que cobras. Revisa el porcentaje actual antes de elegir, porque
-   cambia y define cuánto es realmente tuyo.
-2. **El método de pago.** Cómo y cuándo te deposita la plataforma, en qué moneda
+1. **La comisión de la plataforma.** Cada una se queda con un porcentaje de todo
+   lo que cobras. Checa el porcentaje actual antes de elegir, porque cambia y
+   define cuánto es de verdad tuyo.
+2. **Cómo te pagan.** Cada plataforma deposita distinto: qué días, en qué moneda
    y con qué comisión de por medio para llegar a un banco en México.
-3. **Los impuestos.** En México, lo que ganas por contenido cuenta como ingreso y
-   se declara. Que la plataforma sea de otro país no lo cambia.
-4. **Tu seguridad.** Qué datos tuyos se ven, qué pasa si alguien reparte tu
-   contenido sin permiso y cómo separas esta actividad de tu nombre público si
-   así lo decides.
+3. **El SAT.** Lo que ganas por contenido cuenta como ingreso y se declara. Que
+   la plataforma sea de Estados Unidos no lo cambia.
+4. **Tu seguridad.** Qué datos tuyos se ven, qué haces si alguien reparte tu
+   contenido sin permiso y cómo separas esto de tu nombre público si así lo
+   quieres.
 
-Cada uno de esos puntos tiene su propia guía en El Paywall. Esta es el mapa; las
-demás entran al detalle.
+Cada punto tiene su propia guía aquí. Esta es el mapa; las otras entran al
+detalle.
 
 ## En corto
 
-El paywall es la línea entre lo que das para que te conozcan y lo que cobras para
-vivir de esto. El modelo, el precio y la plataforma son decisiones de negocio,
-no de corazonada. Empieza por entender la comisión y los impuestos, porque son
-los que deciden cuánto de lo que cobras termina siendo tuyo.
+El paywall es la línea entre lo que regalas para que te conozcan y lo que cobras
+para vivir de esto. El modo de cobrar, el precio y la plataforma son decisiones
+de negocio, no de corazonada. Empieza por la comisión y el SAT, porque son los
+que deciden cuánto de lo que cobras acabas quedándote.

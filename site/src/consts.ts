@@ -1,9 +1,9 @@
 // Fuente de verdad del sitio. Editar aquí, no en los componentes.
 
 export const SITE_TITLE = 'El Paywall';
-export const SITE_TAGLINE = 'Vender contenido para adultos desde México, explicado claro';
+export const SITE_TAGLINE = 'Vender contenido para adultos en México, sin vueltas';
 export const SITE_DESCRIPTION =
-  'Guías fáciles para vender contenido para adultos desde México: por dónde empezar, qué plataforma te conviene, cómo te pagan en pesos, qué hacer con el SAT y cómo cuidar tu privacidad. Sin tecnicismos y sin sustos.';
+  'Guías para vender contenido para adultos desde México: fotos de pies, OnlyFans, cómo cobrar en pesos, qué hacer con el SAT y cómo cuidar tu identidad. Explicado bien y hablado normal.';
 
 export const SITE_URL = 'https://elpaywall.com';
 export const SITE_LOCALE = 'es_MX';

@@ -28,9 +28,12 @@ Cierre con el siguiente paso concreto para la lectora.
 
 <!--
 Voz: ver marca/voz.md. Resumen:
-- Español mexicano hablado, "tú" e imperativo de acá (Checa, Arma, Cuida). Nunca voseo.
-- Cercana pero con oficio. Sin intimidar, sin juicios, sin corporativo.
+- Profesionales en el rigor, casuales en el tono. Como un audio a una amiga.
+- Español mexicano hablado, "tú" e imperativo (checa, arma, sube). Nunca voseo.
+- Llamar las cosas por su nombre: fotos de pies, fetiche de pies, nudes, OnlyFans.
+  Nada de eufemismos. Usar las keywords que la gente busca de verdad.
+- Sin corporativo, sin sermones, sin juicios.
 - Sin guiones largos (— o –). Coma, dos puntos, punto o punto medio (·).
 - Para publicar: draft a false y mueve el archivo fuera de borradores.
-- El slug de la URL es el nombre del archivo. kebab-case: como-cobrar-de-onlyfans.md
+- El slug de la URL es el nombre del archivo. kebab-case: como-vender-fotos-de-pies.md
 -->
