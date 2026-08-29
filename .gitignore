@@ -27,3 +27,6 @@ pnpm-debug.log*
 .vscode/
 .idea/
 *.swp
+
+# testimonios en crudo: material sensible, no va a git hasta decidir repo privado
+recursos/testimonios/

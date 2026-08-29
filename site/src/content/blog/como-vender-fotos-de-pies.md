@@ -42,10 +42,12 @@ funciona bien. Te sirven si además quieres vender otras cosas o llevar una
 suscripción. Cada una se queda con un porcentaje de todo lo que cobras: revisa
 el porcentaje vigente antes de elegir.
 
-**Tus redes públicas (Instagram, TikTok, X).** Aquí no vendes. Aquí muestras un
-teaser y mandas a la gente a tu plataforma de paga con el link en la bio. Ojo:
-Instagram y TikTok borran contenido explícito y pueden tumbarte la cuenta, así
-que cuida qué subes.
+**Tus redes públicas (Instagram, TikTok, X, YouTube).** Aquí no vendes. Aquí
+muestras un teaser y mandas a la gente a tu plataforma de paga con el link en la
+bio. Ojo: Instagram y TikTok borran contenido explícito y pueden tumbarte la
+cuenta, así que cuida qué subes. Un dato de quien ya anda en esto: de varias de
+estas plataformas hay poca información en TikTok pero bastante en YouTube, así
+que ahí también vale la pena buscar y, con el tiempo, publicar.
 
 ## Cómo empezar, paso a paso
 
@@ -57,9 +59,13 @@ que cuida qué subes.
 3. **Crea tu cuenta y verifícate.** Todas las plataformas serias piden una
    identificación para confirmar que eres mayor de edad. Es normal y es a tu
    favor.
-4. **Define qué vendes.** Packs de fotos, fotos sueltas, videos cortos y customs
-   (pedidos a la medida: una pose específica, un color de esmalte, escribir un
-   nombre en un papel). Los customs son los que más dejan.
+4. **Define qué vendes.** Packs de fotos, fotos sueltas, videos por tiempo y
+   customs (pedidos a la medida). Los customs son los que más dejan, y la
+   variedad de lo que piden es enorme: pies con crema, pisando comida, pisando
+   lodo, con calcetas y moños, uñas pintadas de un color específico, con
+   accesorios, con jabón. También se venden aparte las calcetas usadas. Muchas
+   plataformas te dejan **programar la entrega**: el cliente lo pide para una
+   fecha y tú lo grabas y lo mandas ese día.
 5. **Ponle precio.** Más abajo entramos a esto.
 6. **Publica seguido.** Una cuenta viva vende. Una cuenta con tres fotos de hace
    dos meses, no.
@@ -69,14 +75,34 @@ que cuida qué subes.
 No hay una tarifa oficial y el precio lo pones tú. Lo que sí puedes hacer es
 calibrar:
 
+- **Arma tus propios paquetes.** La mayoría de plataformas te dejan crear
+  categorías: tantos minutos de video, de tal tipo, a tal precio. Tener un menú
+  claro vende más que negociar todo de cero cada vez.
 - **Mira cuentas parecidas** a la que quieres tener y checa qué cobran por pack,
   por foto suelta y por custom.
 - **El custom siempre vale más** que una foto de catálogo, porque es trabajo
-  hecho para una sola persona.
+  hecho para una sola persona. Algo simple ronda unos pocos dólares; un video con
+  producción (comprar la comida, montar la escena, editar) se cobra bastante más.
 - **Empieza un poco abajo del promedio** para juntar tus primeras ventas y
   reseñas, y sube cuando ya tengas demanda.
 - **No regales "de prueba".** Si alguien no quiere pagar el primer pack, no va a
   pagar el segundo.
+
+## Los lives: donde llegan muchos clientes
+
+Varias plataformas tienen transmisiones en vivo, y quien ya lleva tiempo en esto
+coincide en que ahí llegan más clientes que por el catálogo de fotos. La lógica
+es distinta: no subes contenido, solo estás en vivo y la gente deja dinero.
+
+- **No tienes que enseñar de más.** Puedes transmitir solo con los pies sobre el
+  escritorio. Ni la cara ni el resto del cuerpo tienen que salir.
+- **La gente paga por pedir cosas en el momento:** que te quites los calcetines,
+  que enseñes las plantas, que acerques la cámara. Cada petición se cobra.
+- **Hay dos formas de que te paguen en vivo:** las propinas, que caen directo a tu
+  saldo, y una moneda interna tipo fichas, que juntas y luego cambias por dinero.
+  Revisa cómo funciona y cuánto vale cada una en tu plataforma.
+- Al principio se siente raro. Después es de lo más rentable, porque es tiempo que
+  ya ibas a estar frente a la cámara.
 
 ## Cómo cuidarte
 
@@ -99,8 +125,8 @@ calibrar:
 Vender fotos de pies es un buen primer paso: bajo costo, sin enseñar la cara y
 con demanda estable. Empieza con FeetFinder si quieres algo enfocado, o con
 OnlyFans si además vas a vender otras cosas. Arma un catálogo, verifícate, pon
-precios mirando a cuentas parecidas y cuida tus metadatos y tu fondo desde la
-primera foto.
+precios mirando a cuentas parecidas, prueba los lives y cuida tus metadatos y tu
+fondo desde la primera foto.
 
 Lo que ganes cuenta para el SAT, aunque la plataforma sea de otro país. Eso lo
 vemos en su propia guía.
