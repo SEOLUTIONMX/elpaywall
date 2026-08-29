@@ -30,7 +30,13 @@ const pageTitle = title
   ? `${title} · ${SITE_TITLE}`
   : `${SITE_TITLE} · ${SITE_TAGLINE}`;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// build.format: 'file' deja el pathname como /blog/post.html; lo normalizamos
+// a la URL limpia sin .html y sin index, que es la que sirve Cloudflare Pages.
+const cleanPath = Astro.url.pathname
+  .replace(/index\.html$/, '')
+  .replace(/\.html$/, '')
+  .replace(/\/$/, '') || '/';
+const canonicalURL = new URL(cleanPath, Astro.site);
 const socialImage = new URL(image, Astro.site);
 ---
 
