@@ -6,6 +6,9 @@ site/dist/
 site/.astro/
 .output/
 
+# generado por scripts/generate-og.mjs en cada build (Cloudflare lo regenera)
+site/public/og-default.png
+
 # entorno
 .env
 .env.*
