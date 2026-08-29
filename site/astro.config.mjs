@@ -8,6 +8,11 @@ const SITE = 'https://elpaywall.com';
 export default defineConfig({
   site: SITE,
   trailingSlash: 'never',
+  build: {
+    // genera /blog/post.html en vez de /blog/post/index.html
+    // para que Cloudflare Pages sirva URLs sin barra final sin redirigir
+    format: 'file',
+  },
   integrations: [
     mdx(),
     sitemap({
