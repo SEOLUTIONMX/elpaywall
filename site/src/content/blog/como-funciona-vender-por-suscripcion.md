@@ -44,9 +44,9 @@ que alguien saque la tarjeta suele ser una de estas:
   Google.
 - **Trato directo.** Contestas mensajes, usas su nombre, se siente personal.
 - **Constancia.** Subes seguido y la suscripción se siente viva mes con mes.
-- **Un nicho claro.** Si lo tuyo es fetiche de pies, ropa interior usada o un
-  kink específico, la gente que busca justo eso paga más, porque encuentra menos
-  opciones.
+- **Un nicho claro.** Si lo tuyo es [fetiche de pies](/blog/como-vender-fotos-de-pies),
+  ropa interior usada o un kink específico, la gente que busca justo eso paga
+  más, porque encuentra menos opciones.
 
 ## Por dónde se te va el dinero
 
