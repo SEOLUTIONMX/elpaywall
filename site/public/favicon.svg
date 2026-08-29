@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="El Paywall">
+  <rect width="64" height="64" rx="14" fill="#c8175c"/>
+  <path d="M20 46V18h13.4c6.2 0 10.3 3.7 10.3 9.4 0 5.6-4.1 9.3-10.3 9.3H27v9H20zm7-15.1h5.6c2.6 0 4.3-1.4 4.3-3.5s-1.7-3.6-4.3-3.6H27v7.1z" fill="#fff"/>
+</svg>

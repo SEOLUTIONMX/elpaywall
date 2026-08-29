@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { SITE_TAGLINE } from '../consts';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const latest = posts.slice(0, 6);
+---
+
+<BaseLayout>
+  <section class="wrap hero">
+    <p class="eyebrow">El Paywall</p>
+    <h1>{SITE_TAGLINE}</h1>
+    <p class="lede">
+      Todo lo que pasa después de un botón que dice "suscríbete": plataformas,
+      precios, impuestos, seguridad y cómo se construye una audiencia que paga.
+      Guías claras, sin rodeos, para creadoras en México.
+    </p>
+    <p>
+      <a class="btn" href="/blog">Ver las guías</a>
+    </p>
+  </section>
+
+  <section class="wrap">
+    <h2>Últimas guías</h2>
+    {
+      latest.length === 0 ? (
+        <p class="lede">Todavía no hay guías publicadas. Vuelve pronto.</p>
+      ) : (
+        latest.map((post) => (
+          <PostCard
+            href={`/blog/${post.id}`}
+            title={post.data.title}
+            description={post.data.description}
+            pubDate={post.data.pubDate}
+            tags={post.data.tags}
+          />
+        ))
+      )
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 2rem 1.25rem 3rem;
+  }
+  .hero h1 {
+    margin-top: 0.2rem;
+  }
+  .hero .btn {
+    margin-top: 0.6rem;
+  }
+</style>

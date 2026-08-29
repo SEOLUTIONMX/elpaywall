@@ -1,0 +1,54 @@
+---
+import { SITE_TITLE, SITE_TAGLINE, SOCIAL } from '../consts';
+const year = new Date().getFullYear();
+const socials = [
+  SOCIAL.instagram && { label: 'Instagram', href: SOCIAL.instagram },
+  SOCIAL.tiktok && { label: 'TikTok', href: SOCIAL.tiktok },
+  SOCIAL.x && { label: 'X', href: SOCIAL.x },
+  { label: 'RSS', href: '/rss.xml' },
+].filter(Boolean) as { label: string; href: string }[];
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="name">{SITE_TITLE}</p>
+    <p class="tag">{SITE_TAGLINE}</p>
+    <nav aria-label="Redes">
+      {socials.map((s) => <a href={s.href}>{s.label}</a>)}
+    </nav>
+    <p class="fine">
+      © {year} {SITE_TITLE}. Contenido informativo. No es asesoría legal ni fiscal.
+    </p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--border);
+    margin-top: 4rem;
+    padding: 2.5rem 0 3rem;
+    background: var(--bg-soft);
+  }
+  .name {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  .tag {
+    color: var(--muted);
+    margin: 0.15rem 0 1rem;
+  }
+  nav {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+    flex-wrap: wrap;
+  }
+  .fine {
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin: 0;
+  }
+</style>
