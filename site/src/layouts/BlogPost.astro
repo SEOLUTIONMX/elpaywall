@@ -2,7 +2,16 @@
 import BaseLayout from './BaseLayout.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import JsonLd from '../components/JsonLd.astro';
-import { SITE_URL, SITE_TITLE, AUTHOR_NAME, PUBLISHER_NAME } from '../consts';
+import { SITE_URL, AUTHOR_NAME } from '../consts';
+
+interface FaqItem {
+  q: string;
+  a: string;
+}
+interface SourceItem {
+  label: string;
+  url: string;
+}
 
 interface Props {
   title: string;
@@ -13,6 +22,8 @@ interface Props {
   heroAlt?: string;
   tags?: string[];
   slug: string;
+  faq?: FaqItem[];
+  sources?: SourceItem[];
 }
 
 const {
@@ -24,6 +35,8 @@ const {
   heroAlt,
   tags = [],
   slug,
+  faq = [],
+  sources = [],
 } = Astro.props;
 
 const url = `${SITE_URL}/blog/${slug}`;
@@ -44,6 +57,9 @@ const postSchema = {
   isPartOf: { '@id': `${SITE_URL}/#website` },
   mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   ...(tags.length ? { keywords: tags.join(', ') } : {}),
+  ...(sources.length
+    ? { citation: sources.map((s) => ({ '@type': 'CreativeWork', name: s.label, url: s.url })) }
+    : {}),
 };
 
 const breadcrumbSchema = {
@@ -55,6 +71,22 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 3, name: title, item: url },
   ],
 };
+
+const faqSchema =
+  faq.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        '@id': `${url}/#faq`,
+        mainEntity: faq.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      }
+    : null;
+
+const schemas = [postSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
 <BaseLayout
@@ -65,7 +97,7 @@ const breadcrumbSchema = {
   publishedTime={pubDate.toISOString()}
   modifiedTime={(updatedDate ?? pubDate).toISOString()}
 >
-  <JsonLd schema={[postSchema, breadcrumbSchema]} slot="head" />
+  <JsonLd schema={schemas} slot="head" />
 
   <article class="wrap post">
     <nav class="crumbs" aria-label="Ruta">
@@ -90,6 +122,43 @@ const breadcrumbSchema = {
     <div class="prose">
       <slot />
     </div>
+
+    {
+      faq.length > 0 && (
+        <section class="faq">
+          <h2>Preguntas rápidas</h2>
+          {faq.map((f) => (
+            <details>
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </section>
+      )
+    }
+
+    {
+      sources.length > 0 && (
+        <section class="sources">
+          <h2>De dónde salieron los datos</h2>
+          <ul>
+            {sources.map((s) => (
+              <li>
+                <a href={s.url} target="_blank" rel="noopener nofollow">
+                  {s.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p class="disclaimer">
+            Los precios y reglas cambian seguido. Las cifras son de referencia, a un
+            tipo de cambio de 17 pesos por dólar (Banxico, agosto de 2026). Antes de
+            decidir algo, revisa el dato vigente en la fuente y, para lo fiscal,
+            consulta a un contador.
+          </p>
+        </section>
+      )
+    }
 
     {
       tags.length > 0 && (
@@ -145,6 +214,54 @@ const breadcrumbSchema = {
   .prose :global(li) {
     margin: 0.35rem 0;
   }
+  .prose :global(table) {
+    font-size: 0.95rem;
+  }
+
+  .faq {
+    margin-top: 2.5rem;
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+  }
+  .faq details {
+    border-bottom: 1px solid var(--border);
+    padding: 0.85rem 0;
+  }
+  .faq summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+  }
+  .faq details p {
+    margin: 0.7rem 0 0.2rem;
+    color: var(--ink-soft);
+  }
+
+  .sources {
+    margin-top: 2.5rem;
+    background: var(--bg-soft);
+    border-radius: var(--radius);
+    padding: 1.4rem 1.5rem;
+  }
+  .sources h2 {
+    margin-top: 0;
+    font-size: 1.15rem;
+  }
+  .sources ul {
+    margin: 0.5rem 0 1rem;
+    padding-left: 1.1rem;
+  }
+  .sources li {
+    font-size: 0.92rem;
+    margin: 0.3rem 0;
+  }
+  .sources .disclaimer {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 0;
+  }
+
   .tags {
     display: flex;
     gap: 0.5rem;

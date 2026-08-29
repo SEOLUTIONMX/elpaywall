@@ -12,6 +12,14 @@ const blog = defineCollection({
     heroAlt: z.string().optional(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
+    // Preguntas frecuentes: se pintan al final y generan schema FAQPage.
+    faq: z
+      .array(z.object({ q: z.string(), a: z.string() }))
+      .default([]),
+    // Fuentes externas citadas (para GEO y credibilidad).
+    sources: z
+      .array(z.object({ label: z.string(), url: z.string() }))
+      .default([]),
   }),
 });
 
