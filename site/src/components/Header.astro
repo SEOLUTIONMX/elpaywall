@@ -5,7 +5,7 @@ const path = Astro.url.pathname;
 
 <header class="site-header">
   <div class="wrap bar">
-    <a href="/" class="wordmark">{SITE_TITLE}</a>
+    <a href="/" class="wordmark">{SITE_TITLE}<span class="dot">.</span></a>
     <nav aria-label="Principal">
       {
         NAV_LINKS.map((link) => (
@@ -24,33 +24,39 @@ const path = Astro.url.pathname;
 <style>
   .site-header {
     border-bottom: 1px solid var(--border);
-    background: var(--bg);
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: saturate(1.4) blur(8px);
     position: sticky;
     top: 0;
     z-index: 10;
   }
   .bar {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
     flex-wrap: wrap;
   }
   .wordmark {
-    font-family: var(--font-serif);
-    font-size: 1.35rem;
-    font-weight: 600;
-    letter-spacing: -0.02em;
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
     color: var(--ink);
     text-decoration: none;
+    text-transform: lowercase;
+  }
+  .wordmark .dot {
+    color: var(--accent);
   }
   nav {
     display: flex;
-    gap: 1.25rem;
+    gap: 1.4rem;
     font-family: var(--font-sans);
-    font-size: 0.95rem;
+    font-size: 0.93rem;
+    font-weight: 500;
   }
   nav a {
     color: var(--muted);

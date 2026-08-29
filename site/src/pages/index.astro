@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
-import { SITE_TAGLINE } from '../consts';
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
@@ -12,20 +11,32 @@ const latest = posts.slice(0, 6);
 
 <BaseLayout>
   <section class="wrap hero">
-    <p class="eyebrow">El Paywall</p>
-    <h1>{SITE_TAGLINE}</h1>
+    <p class="eyebrow">Guías para creadoras · México</p>
+    <h1>Vender contenido para adultos, sin que nadie te enrede</h1>
     <p class="lede">
-      Todo lo que pasa después de un botón que dice "suscríbete": plataformas,
-      precios, impuestos, seguridad y cómo se construye una audiencia que paga.
-      Guías claras, sin rodeos, para creadoras en México.
+      Por dónde empezar, qué plataforma te conviene, cómo te llega el dinero en
+      pesos, qué hacer con el SAT y cómo cuidar tu privacidad. Te lo contamos
+      claro, con pasos, y en español de acá.
     </p>
     <p>
-      <a class="btn" href="/blog">Ver las guías</a>
+      <a class="btn" href="/blog">Ver las guías →</a>
     </p>
   </section>
 
+  <section class="wrap topics">
+    <h2>De qué te hablamos</h2>
+    <ul class="topic-grid">
+      <li><strong>Empezar</strong><span>Qué necesitas y qué esperar los primeros meses</span></li>
+      <li><strong>Plataformas</strong><span>Cuál elegir y cuánto se queda cada una</span></li>
+      <li><strong>Cobrar</strong><span>Cómo sacar tu dinero a un banco en México</span></li>
+      <li><strong>Impuestos</strong><span>El SAT sin drama, paso a paso</span></li>
+      <li><strong>Privacidad</strong><span>Vender sin exponer quién eres</span></li>
+      <li><strong>Crecer</strong><span>Conseguir suscriptoras que se queden</span></li>
+    </ul>
+  </section>
+
   <section class="wrap">
-    <h2>Últimas guías</h2>
+    <h2>Lo más nuevo</h2>
     {
       latest.length === 0 ? (
         <p class="lede">Todavía no hay guías publicadas. Vuelve pronto.</p>
@@ -46,12 +57,43 @@ const latest = posts.slice(0, 6);
 
 <style>
   .hero {
-    padding: 2rem 1.25rem 3rem;
+    padding: 2.5rem 1.35rem 3rem;
   }
   .hero h1 {
-    margin-top: 0.2rem;
+    margin-top: 0.6rem;
+  }
+  .hero .lede {
+    max-width: 34rem;
   }
   .hero .btn {
-    margin-top: 0.6rem;
+    margin-top: 0.8rem;
+  }
+  .topics {
+    margin-bottom: 1rem;
+  }
+  .topic-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 0.75rem;
+  }
+  .topic-grid li {
+    background: var(--bg-soft);
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .topic-grid strong {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .topic-grid span {
+    font-size: 0.92rem;
+    color: var(--muted);
   }
 </style>

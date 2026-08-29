@@ -17,41 +17,56 @@ const { href, title, description, pubDate, tags = [] } = Astro.props;
     <p class="desc">{description}</p>
     <p class="meta">
       <FormattedDate date={pubDate} />
-      {tags.length > 0 && <span class="dot">·</span>}
+      {tags.length > 0 && <span class="sep">·</span>}
       {tags.slice(0, 2).join(' · ')}
+      <span class="go">Leer →</span>
     </p>
   </a>
 </article>
 
 <style>
   .card {
-    padding: 1.6rem 0;
-    border-bottom: 1px solid var(--border);
+    margin: 1rem 0;
   }
   .card-link {
+    display: block;
     text-decoration: none;
     color: inherit;
-    display: block;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem 1.6rem;
+    transition: border-color 0.14s ease, transform 0.14s ease;
+  }
+  .card-link:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
   }
   .card h2 {
-    margin: 0 0 0.35rem;
-    font-size: 1.4rem;
-    color: var(--ink);
+    margin: 0 0 0.4rem;
+    font-size: 1.5rem;
+    line-height: 1.12;
   }
   .card-link:hover h2 {
     color: var(--accent-ink);
   }
   .desc {
-    margin: 0 0 0.6rem;
-    color: var(--muted);
+    margin: 0 0 0.75rem;
+    color: var(--ink-soft);
   }
   .meta {
     margin: 0;
     font-size: 0.85rem;
     color: var(--muted);
     font-family: var(--font-sans);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
   }
-  .dot {
-    margin: 0 0.35rem;
+  .go {
+    margin-left: auto;
+    color: var(--accent-ink);
+    font-weight: 700;
   }
 </style>
