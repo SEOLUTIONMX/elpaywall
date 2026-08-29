@@ -30,24 +30,33 @@ por dentro (comisiones, suscripción, contenido suelto), lee primero
 
 ## Dónde vender fotos de pies
 
-Hay tres caminos y se pueden combinar:
+Estas son las plataformas que más se usan y se pueden combinar.
 
-**FeetFinder.** Está hecha solo para este nicho. Verifica identidad y edad de
-las vendedoras, lo cual filtra curiosos y da algo de seguridad. Cobra una cuota
-de vendedora para publicar, checa el monto actual en su sitio antes de
-registrarte.
+**FeetFinder.** Está hecha solo para este nicho. Verifica identidad y edad de las
+vendedoras, lo cual filtra curiosos y da algo de seguridad. Cobra una membresía
+de vendedora para publicar (una creadora contó que pagó unos 80 dólares); checa
+el plan vigente en su sitio antes de registrarte.
 
-**OnlyFans o Fansly.** Son generales, pero el contenido de pies está permitido y
+**ManyVids.** Es más parecida a OnlyFans: vendes videos, packs, customs y hasta
+llevas una tienda con tu perfil. Sirve si quieres un catálogo grande y no solo
+pies. Ten en cuenta dos cosas que contó una creadora: el pago puede tardar
+varias semanas en llegar y te piden subir tu estado de cuenta bancario para
+liberarlo.
+
+**OnlyFans o Fansly.** Generales, pero el contenido de pies está permitido y
 funciona bien. Te sirven si además quieres vender otras cosas o llevar una
 suscripción. Cada una se queda con un porcentaje de todo lo que cobras: revisa
-el porcentaje vigente antes de elegir.
+el vigente antes de elegir.
+
+**Cam4 y otras de transmisión en vivo.** Aquí el negocio no son las fotos, son
+los lives. Lo vemos en su propia sección más abajo.
 
 **Tus redes públicas (Instagram, TikTok, X, YouTube).** Aquí no vendes. Aquí
 muestras un teaser y mandas a la gente a tu plataforma de paga con el link en la
 bio. Ojo: Instagram y TikTok borran contenido explícito y pueden tumbarte la
 cuenta, así que cuida qué subes. Un dato de quien ya anda en esto: de varias de
-estas plataformas hay poca información en TikTok pero bastante en YouTube, así
-que ahí también vale la pena buscar y, con el tiempo, publicar.
+estas plataformas hay poca info en TikTok pero bastante en YouTube, así que ahí
+también vale la pena buscar y, con el tiempo, publicar.
 
 ## Cómo empezar, paso a paso
 
@@ -90,9 +99,10 @@ calibrar:
 
 ## Los lives: donde llegan muchos clientes
 
-Varias plataformas tienen transmisiones en vivo, y quien ya lleva tiempo en esto
-coincide en que ahí llegan más clientes que por el catálogo de fotos. La lógica
-es distinta: no subes contenido, solo estás en vivo y la gente deja dinero.
+Varias plataformas tienen transmisiones en vivo (Cam4 es una de las más
+conocidas), y quien ya lleva tiempo en esto coincide en que ahí llegan más
+clientes que por el catálogo de fotos. La lógica es distinta: no subes
+contenido, solo estás en vivo y la gente deja dinero.
 
 - **No tienes que enseñar de más.** Puedes transmitir solo con los pies sobre el
   escritorio. Ni la cara ni el resto del cuerpo tienen que salir.
@@ -103,6 +113,19 @@ es distinta: no subes contenido, solo estás en vivo y la gente deja dinero.
   Revisa cómo funciona y cuánto vale cada una en tu plataforma.
 - Al principio se siente raro. Después es de lo más rentable, porque es tiempo que
   ya ibas a estar frente a la cámara.
+
+## Cómo te llega el dinero
+
+El dinero no cae al instante ni completo. Lo que cuentan las creadoras:
+
+- **Tarda.** De la venta a tu cuenta pueden pasar varias semanas. Una creadora
+  esperó unos 21 días por un pago de ManyVids.
+- **Hay un mínimo.** Casi todas piden juntar cierta cantidad antes de dejarte
+  retirar.
+- **Piden papeles.** Algunas te piden subir tu estado de cuenta bancario o una
+  identificación para liberar el pago. Es normal, pero tenlo listo.
+- **Llega en dólares.** Vas a necesitar una forma de pasarlo a pesos y a un banco
+  en México. Eso tiene su propia guía.
 
 ## Cómo cuidarte
 
@@ -123,10 +146,11 @@ es distinta: no subes contenido, solo estás en vivo y la gente deja dinero.
 ## En corto
 
 Vender fotos de pies es un buen primer paso: bajo costo, sin enseñar la cara y
-con demanda estable. Empieza con FeetFinder si quieres algo enfocado, o con
-OnlyFans si además vas a vender otras cosas. Arma un catálogo, verifícate, pon
-precios mirando a cuentas parecidas, prueba los lives y cuida tus metadatos y tu
-fondo desde la primera foto.
+con demanda estable. Empieza con FeetFinder si quieres algo enfocado, con
+ManyVids u OnlyFans si vas a armar un catálogo grande, o con un live en Cam4 si
+quieres probar rápido sin subir nada. Arma tu material, verifícate, pon precios
+mirando a cuentas parecidas y cuida tus metadatos y tu fondo desde la primera
+foto.
 
 Lo que ganes cuenta para el SAT, aunque la plataforma sea de otro país. Eso lo
 vemos en su propia guía.
