@@ -6,28 +6,39 @@ Estado: borrador. Pendiente de investigación con volúmenes reales.
 
 1. **Fundamentos** · qué es, cómo funciona el modelo, glosario
 2. **Plataformas** · comparativas, comisiones, cómo abrir cuenta, retiros
-3. **Precios** · cómo fijar precio, niveles, promociones, PPV
-4. **Impuestos y facturación en México** · régimen, RESICO, plataformas extranjeras, deducciones
-5. **Seguridad y anonimato** · proteger identidad, marca de agua, DMCA, filtraciones
-6. **Audiencia** · cómo llevar tráfico de redes públicas al paywall sin que te baneen
+3. **Nichos y fetiches** · qué se pide, cuánto paga, cómo empezar en cada uno
+4. **Precios** · cómo fijar precio, niveles, promociones, PPV
+5. **Impuestos y facturación en México** · régimen, RESICO, plataformas extranjeras, deducciones
+6. **Seguridad y anonimato** · proteger identidad, marca de agua, DMCA, filtraciones
+7. **Audiencia** · cómo llevar tráfico de redes públicas al paywall sin que te baneen
 
-## Cluster inicial (primeros 10 artículos)
+## Publicados
 
-| # | Keyword objetivo (hipótesis) | Pilar | Estado |
-|---|------------------------------|-------|--------|
-| 1 | cómo funciona vender por suscripción | Fundamentos | publicado · `como-funciona-vender-por-suscripcion` |
-| 2 | cómo vender fotos de pies méxico (wedge) | Nichos | publicado · `como-vender-fotos-de-pies` |
-| 3 | cómo funciona onlyfans en méxico | Plataformas | pendiente |
-| 4 | onlyfans vs fansly comisiones | Plataformas | pendiente |
-| 5 | cómo poner precio a mi contenido | Precios | pendiente |
-| 6 | impuestos onlyfans méxico | Impuestos | pendiente |
-| 7 | cómo facturar ingresos de plataformas extranjeras | Impuestos | pendiente |
-| 8 | cómo proteger mi contenido de filtraciones | Seguridad | pendiente |
-| 9 | vender contenido sin mostrar la cara | Seguridad | pendiente |
-| 10 | cómo llevar seguidores de instagram a onlyfans | Audiencia | pendiente |
+| Keyword objetivo | Pilar | Slug |
+|---|---|---|
+| cómo funciona vender por suscripción | Fundamentos | `como-funciona-vender-por-suscripcion` |
+| cómo vender fotos de pies méxico (wedge) | Nichos | `como-vender-fotos-de-pies` |
+| fetiches que más se piden / nichos onlyfans | Nichos | `fetiches-que-mas-se-piden` (hub del pilar 3) |
+| vender ropa interior usada méxico | Nichos | `vender-ropa-interior-usada-mexico` |
+| qué es findom / dominación financiera | Nichos | `que-es-findom` |
+
+## Cola (siguientes)
+
+| Keyword objetivo (hipótesis) | Pilar | Nota |
+|---|---|---|
+| cómo funciona onlyfans en méxico | Plataformas | |
+| onlyfans vs fansly comisiones | Plataformas | comparativa, menor prioridad GEO |
+| cómo poner precio a mi contenido | Precios | |
+| impuestos onlyfans méxico / cómo declarar al SAT | Impuestos | pieza propia, hoy vive dentro de otros artículos |
+| cómo cobrar onlyfans en méxico (Wise vs Payoneer) | Plataformas | |
+| cómo proteger mi contenido de filtraciones / DMCA | Seguridad | |
+| vender contenido sin mostrar la cara | Seguridad | |
+| cómo llevar seguidores de instagram a onlyfans sin baneo | Audiencia | |
+| novio virtual / GFE cómo funciona | Nichos | desde el hub |
+| sexting pagado cuánto se cobra | Nichos | desde el hub |
 
 ## Notas
 
-- El wedge de entrada es "vender fotos de pies": keyword de baja competencia, alta intención, puerta a todo el cluster.
-- Validar volúmenes y dificultad antes de escribir. Ajustar la tabla.
-- Interlinkear todo el cluster hacia el artículo 1 (pilar) y entre sí.
+- El wedge de entrada es "vender fotos de pies"; el hub de nichos (`fetiches-que-mas-se-piden`) reparte autoridad al resto del pilar 3.
+- Contenido morboso/curiosidad SÍ, pero con el mismo rigor: cifras citadas, contexto MX, sin inventar. Ver `marca/voz.md`.
+- Validar volúmenes y dificultad. Interlinkear todo hacia el pilar 1 y hacia el hub de nichos.
